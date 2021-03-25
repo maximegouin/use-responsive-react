@@ -1,22 +1,22 @@
-# react-use-responsive
+# use-responsive-react
 
 > React hook for responsive design
 
-[![NPM](https://img.shields.io/npm/v/react-use-responsive.svg)](https://www.npmjs.com/package/react-use-responsive) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/use-responsive-react.svg)](https://www.npmjs.com/package/use-responsive-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-use-responsive
+npm install --save use-responsive-react
 ```
 ```bash
-yarn add react-use-responsive
+yarn add use-responsive-react
 ```
 
 ## Usage
 
 ```jsx
-import { useResponsive } from 'react-use-responsive'
+import { useResponsive } from 'use-responsive-react'
 
 const Example = () => {
     const { width, screenSize } = useResponsive
@@ -52,7 +52,7 @@ const Example = () => {
 
 ## Define your own breakpoints
 ```jsx
-import { useResponsive } from 'react-use-responsive'
+import { useResponsive } from 'use-responsive-react'
 
 const Example = () => {
     const { defineBreakpoints } = useResponsive
