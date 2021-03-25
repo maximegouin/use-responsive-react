@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      <GithubCorner href="https://github.com/maximegouin/react-use-responsive" />
+      <GithubCorner href="https://github.com/maximegouin/use-responsive-react" />
       <ReactMarkdown>{HEADER_MARKDOWN}</ReactMarkdown>
       <hr />
       <h3>defineBreakpoints</h3>
