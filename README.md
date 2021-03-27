@@ -21,7 +21,7 @@ yarn add use-responsive-react
 import { useResponsive } from 'use-responsive-react'
 
 const Example = () => {
-    const { width, screenSize } = useResponsive
+    const { width, screenSize } = useResponsive();
 
     return (
         <div>
@@ -57,7 +57,7 @@ const Example = () => {
 import { useResponsive } from 'use-responsive-react'
 
 const Example = () => {
-    const { defineBreakpoints } = useResponsive
+    const { defineBreakpoints } = useResponsive();
     
     defineBreakpoints({
         xs: 0,
